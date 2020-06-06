@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-home" %}
+
+<title>Ecoleta</title>
+
+{% block styles %}
+    <link rel="stylesheet" type="text/css" href="styles/Home.css" media="screen"/>
+    <!--link do aquivo CSS-->
+    <link rel="stylesheet" type="text/css" href="styles/Modal.css" media="screen"/>
+    <!--link do aquivo CSS-->
+{% endblock styles %}
+
+{% block content %}
+    <div class="content">
+        <header>
+            <img src="/assets/logo.svg" alt="Logomarca">
+            <a href="/Create-point">
+                <span></span>
+                Cadastre um ponto de coleta</a>
+        </header>
+
+        <main>
+
+            <h1>Seu market place de coleta de resíduos</h1>
+
+            <p>Ajudamos pessoas a encontrar o seu ponto de coleta de forma eficiente.</p>
+
+            <a href="#">
+                <span></span>
+                <strong>Pesquisar pontos de coleta</strong>
+            </a>
+
+        </main>
+    </div>
+{% endblock content %}
+
+{% block modal %}
+    {% include "partials/modal.html" %}
+{% endblock modal %}
+
+{% block scripts %}
+    <script src="/Scripts/index.js"></script>
+{% endblock scripts %}
