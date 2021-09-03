@@ -131,7 +131,7 @@ $ npm run dev:server
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/tgmarinho/nlw1
+$ git clone https://github.com/thiagonfss/nlw1
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd nlw1
@@ -166,7 +166,7 @@ $ npm run start
 
 Este projeto esta sobe a licença MIT.
 
-Feito com ❤️ por Thiago Marinho 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tgmarinho/)
+Feito com ❤️ por Thiago Felipe 👋🏽 [Entre em contato!](https://www.linkedin.com/in/thiagonfss/)
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
